@@ -22,7 +22,7 @@ var consultaAPI = function(){
 
     var search =$('#search').val();
     var query = (searchQuery.length>0) ? { tags : searchQuery } : { tags : ''} ;
-    $.getJSON( "http://fetxit.com:8181/search", query,
+    $.getJSON( "http://www.fetxit.com:8181/search", query,
         function( data ) {
             $('.photo-list').html('');
             var i=0;
