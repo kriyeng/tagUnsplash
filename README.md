@@ -1,4 +1,4 @@
-tagUnsplash *Deprecated*
+tagUnsplash (Deprecated)
 ===========
 
 tagging unsplash.
